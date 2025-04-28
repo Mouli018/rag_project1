@@ -1,4 +1,5 @@
 DeepEdge RAG Chatbot
+
 A Retrieval-Augmented Generation (RAG) chatbot built for DeepEdge AI, designed to answer queries about recent news (e.g., "India Pakistan conflict news 2025 April recent tensions escalation Kashmir attacks") with bullet-point responses, source citations, and image captions.
 
 The system uses:
@@ -10,20 +11,30 @@ Streamlit for the frontend
 Gemini API for generation
 
 Key Features:
+
 ✅ Conversational Memory
+
 ✅ Computer Vision
+
 ✅ Evaluation Metrics
 
 Table of Contents
-Overview
-Features
-Requirements
+
+##Overview
+
+#Features
+
+#Requirements
+
 Setup Instructions
+
 Usage
+
 Directory Structure
+
 Notes
 
-Overview
+Overview:
 This project implements a RAG chatbot that combines:
 Web search (Serper)
 Content scraping (ScrapingBee)
