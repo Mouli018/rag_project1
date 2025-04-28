@@ -1,40 +1,30 @@
-DeepEdge RAG Chatbot
+# DeepEdge RAG Chatbot
 
 A Retrieval-Augmented Generation (RAG) chatbot built for DeepEdge AI, designed to answer queries about recent news (e.g., "India Pakistan conflict news 2025 April recent tensions escalation Kashmir attacks") with bullet-point responses, source citations, and image captions.
 
-The system uses:
+# The system uses:
 
 Flask for the backend
-
 Streamlit for the frontend
-
 Gemini API for generation
 
-Key Features:
+# Key Features:
 
 ✅ Conversational Memory
-
 ✅ Computer Vision
-
 ✅ Evaluation Metrics
 
-Table of Contents
+## Table of Contents
 
-##Overview
+[Overview](#overview)
+[Features](#features)
+[Requirements](#requirements)
+[Setup Instructions](#SetupInstructions)
+[Usage](#Usage)
+[Directory Structure](#DirectoryStructure)
+[Notes](#notes)
 
-#Features
-
-#Requirements
-
-Setup Instructions
-
-Usage
-
-Directory Structure
-
-Notes
-
-Overview:
+## Overview:
 This project implements a RAG chatbot that combines:
 Web search (Serper)
 Content scraping (ScrapingBee)
@@ -49,7 +39,7 @@ The Streamlit UI offers a user-friendly interface with:
 📌 Chat history
 📌 Expandable source citations
 
-Features
+## Features:
 🔹 RAG Pipeline
 Searches for relevant articles, scrapes content, and generates bullet-point answers with source citations.
 
@@ -68,7 +58,7 @@ Displays chat history, responses, and collapsible source details.
 🔹 Robust Scraping
 Handles premium news sites (CNN, Reuters, The Hindu) with ScrapingBee’s premium proxy and deduplication logic.
 
-Requirements
+## Requirements
 Software:
 Python: 3.8 or higher
 Virtual Environment: Recommended (e.g., venv)
@@ -99,7 +89,7 @@ RAM: 8GB or higher
 Internet: Required for API calls
 Disk Space: ~500MB (including optional cache/)
 
-Setup Instructions
+## Setup Instructions
 1.Clone or Extract:
 git clone [repo_url]  # If applicable
 cd DeepEdge_RAG_Mouli
@@ -129,7 +119,7 @@ python app.py  # Runs on http://localhost:5000
 cd ..
 streamlit run streamlit_app/app.py  # Open http://localhost:8501
 
-Usage
+## Usage
 Enter a Query
 Example:
 India Pakistan conflict news 2025 April recent tensions escalation Kashmir attacks.
