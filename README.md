@@ -17,11 +17,13 @@ Gemini API for generation
 ## Table of Contents
 
 [Overview](#overview)
+
 [Features](#features)
+
 [Requirements](#requirements)
-[Setup Instructions](#SetupInstructions)
-[Usage](#Usage)
-[Directory Structure](#DirectoryStructure)
+
+[Setup_Instructions](#Setup_Instructions)
+
 [Notes](#notes)
 
 ## Overview:
@@ -126,7 +128,7 @@ India Pakistan conflict news 2025 April recent tensions escalation Kashmir attac
 Follow-Up Queries
 Ask related questions (e.g., "What is The Resistance Front?") to leverage conversational memory.
 
-Notes
+## Notes
 ⚠ ScrapingBee Credits: Premium proxy is required for news sites (CNN, Reuters, The Hindu).
 ⚠ Python Version: Use 3.8+ to avoid dependency issues.
 ⚠ Testing: Test queries in Streamlit to verify RAG functionality, memory, and metrics.
